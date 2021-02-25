@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    background: royalblue;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 559;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 449;
+    margin-left: 24px;
+}
+
+.navbar .logo a span{
+    color: yellow;
+    transition: all 0.3s ease;
+
+}
+
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+/* home page styling */
+
+.sectionhome{
+    padding-top: 250px;
+    background: url(images/homebg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.introduction{
+    text-align: center;
+}
+
+.introduction h1{
+    color: royalblue;
+    font-size: 30px;
+    text-align: right;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+/* ebooks page styling */
+
+.ebooksselection{
+    display: flex;
+}
+
+.ebooksselection img{
+    margin-left: 160px;
+    margin-top: 40px;
+    width: auto;
+    height: 320px;
+}
+
+.titleebook h1{
+    margin-left: 502px;
+    font-size: 70px;
+}
+
+.sectionebook{
+    padding-top: 120px;
+    background: url(images/ebooksbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titleebook h1{
+    color: royalblue;
+}
+
+.ebooksselection a{
+    margin-left: 200px;
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: royalblue;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.ebooksselection a:hover{
+    color: purple;
+    background: grey;
+}
+
+/* books page styling */
+
+.booksselection{
+    display: flex;
+}
+
+.booksselection img{
+    margin-left: 160px;
+    margin-top: 40px;
+    width: auto;
+    height: 320px;
+}
+
+.titlebook h1{
+    margin-left: 502px;
+    font-size: 70px;
+}
+
+.sectionbook{
+    padding-top: 120px;
+    background: url(images/booksbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titlebook h1{
+    color: royalblue;
+}
+
+.booksselection a{
+    margin-left: 200px;
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: royalblue;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.booksselection a:hover{
+    color: purple;
+    background: grey;
+}
+
+/* shirts page styling */
+
+.shirtsselection{
+    display: flex;
+}
+
+.shirtsselection img{
+    margin-left: 80px;
+    margin-top: 40px;
+    width: auto;
+    height: 300px;
+}
+
+.titleshirt h1{
+    margin-left: 502px;
+    font-size: 70px;
+}
+
+.sectionshirt{
+    padding-top: 120px;
+    background: url(images/shirtsbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titleshirt h1{
+    color: royalblue;
+}
+
+.shirtsselection a{
+    margin-left: 165px;
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: royalblue;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.shirtsselection a:hover{
+    color: purple;
+    background: grey;
+}
+
+
+
+/* masks page styling */
+
+.masksselection{
+    display: flex;
+}
+
+.masksselection img{
+    margin-left: 80px;
+    margin-top: 40px;
+    width: auto;
+    height: 300px;
+}
+
+.titlemask h1{
+    margin-left: 502px;
+    font-size: 70px;
+}
+
+.sectionmask{
+    padding-top: 120px;
+    background: url(images/masksbg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.titlemask h1{
+    color: royalblue;
+}
+
+.masksselection a{
+    margin-left: 165px;
+    display: block;
+    width: 115px;
+    height: 30px;
+    background: royalblue;
+    padding: 3px;
+    text-align: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.masksselection a:hover{
+    color: purple;
+    background: grey;
+}
+
+/* footer section styling */
+footer{
+    background: royalblue;
+    padding: 20px 23px;
+    color: #fff;
+}
+
+footer span a{
+    color: yellow;
+    text-decoration: none;
+}
+
+footer span a:hover{
+    text-decoration: underline;
+}
